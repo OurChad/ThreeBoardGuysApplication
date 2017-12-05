@@ -1,0 +1,9 @@
+:root {
+  --primary-theme-color: #524763;
+  --secondary-theme-color: #82D8D8;
+}
+
+.align-center-horizontal {
+  display: flex;
+  justify-content: center;
+}

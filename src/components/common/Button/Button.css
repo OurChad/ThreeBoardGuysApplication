@@ -1,0 +1,19 @@
+.btn-BSDefault {
+    background-color: var(--secondary-theme-color);
+    color: #fff;
+    font-weight: bolder !important;
+}
+
+.btn-BSDefault:hover {
+    color: var(--primary-theme-color) !important;
+}
+
+.btn-BSPrimary {
+    background-color: var(--primary-theme-color);
+    color: #fff;
+    font-weight: bolder !important;
+}
+
+.btn-BSPrimary:hover {
+    color: var(--secondary-theme-color) !important;
+}

@@ -1,0 +1,7 @@
+.Header {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--secondary-theme-color);
+    border-bottom: solid 1px #222222;
+    margin-bottom: 10px;
+}

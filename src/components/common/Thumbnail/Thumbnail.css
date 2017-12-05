@@ -1,0 +1,39 @@
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border .2s ease-in-out;
+    text-align: center;
+}
+
+.thumbnail img {
+    max-height: 140px;
+}
+
+.thumbnail .font-awesome {
+    color: var(--secondary-theme-color);
+}
+
+.thumbnail .caption {
+    padding: 9px;
+    color: #333;
+}
+
+.thumbnail-title {
+    text-align: center;
+}
+
+.thumbnail-description {
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn-BSCustom {
+    background-color: var(--primary-theme-color);
+    color: #fff;
+    font-weight: bolder !important;
+}

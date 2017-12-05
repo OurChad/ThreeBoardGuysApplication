@@ -1,0 +1,43 @@
+.navbar-bsCustom {
+    background-color: var(--primary-theme-color);
+    color: #ffffff;
+}
+
+.navbar-bsCustom .navbar-toggle {
+    border-color: var(--secondary-theme-color);
+}
+
+.navbar-bsCustom .navbar-toggle .icon-bar {
+    background-color: var(--secondary-theme-color);
+}
+
+.navbar-brand-bsCustom {    
+    color: var(--secondary-theme-color) !important;
+    text-shadow: none !important;
+}
+
+.nav-bsCustom a {
+    color: #ffffff;
+    text-shadow: none;
+}
+
+.nav-bsCustom > li > a {
+    text-shadow: none !important;
+}
+
+.nav-bsCustom > li > a:hover, .nav-bsCustom > li > a:focus, .nav-bsCustom > li > a > a:hover, .nav-bsCustom > li > a > a:focus {
+    background-color:var(--primary-theme-color) !important;
+    text-decoration: none !important;
+    color: var(--secondary-theme-color);
+    text-shadow: none;
+}
+
+.logo {    
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
